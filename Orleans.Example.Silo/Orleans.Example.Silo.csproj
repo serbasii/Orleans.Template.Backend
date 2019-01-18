@@ -22,4 +22,10 @@
     <ProjectReference Include="..\Orleans.Example.Grains\Orleans.Example.Grains.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="DockerFile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
