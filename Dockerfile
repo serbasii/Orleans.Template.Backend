@@ -1,4 +1,4 @@
-FROM orleans.example.silo\bin\release\netcoreapp2.2
+FROM orleans.example.silo
 COPY bin/release/publishoutput  /app/
 WORKDIR /app
 ENTRYPOINT ["dotnet", "/app/orleans.example.silo.dll"]
