@@ -1,3 +1,3 @@
-FROM Orleans.Template.Backend
+FROM orleans.template.backend
 ADD publish/ /
 ENTRYPOINT orleans.example.silo.exe
