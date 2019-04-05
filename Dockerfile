@@ -1,6 +1,6 @@
 FROM microsoft/aspnetcore:2.2
 
-COPY bin/Release/PublishOutput  /app/
+COPY bin/Release/PublishOutput/app/
 
 WORKDIR /app
 
