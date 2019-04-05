@@ -12,7 +12,7 @@ namespace Orleans.Example
         private const string ServiceId = "OrleansSample";
 
         private const string Invariant = "System.Data.SqlClient";
-        private const string ConnectionString = @"Data Source = <server>; Initial Catalog = <dbName>; Integrated Security = True; Pooling = False; Max Pool Size = 200; MultipleActiveResultSets = True";
+        private const string ConnectionString = @"Data Source = WAKINGFORREST\SLEEPINGFOREST; Initial Catalog = Orleans; Integrated Security = True; Pooling = False; Max Pool Size = 200; MultipleActiveResultSets = True";
 
         static void Main(string[] args)
         {
