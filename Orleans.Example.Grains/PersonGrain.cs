@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Orleans.Person.Interface;
+using System;
 using System.Threading.Tasks;
 
 namespace Orleans.Example
