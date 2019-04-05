@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:2.2
+FROM microsoft/netcoreapp2.2
 
 COPY bin/Release/PublishOutput /app/
 
