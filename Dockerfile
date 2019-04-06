@@ -7,8 +7,8 @@ FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
 WORKDIR /src
 COPY ["Orleans.Template/Orleans.Example.Grains.csproj", "Orleans.Template/"]
 RUN dotnet restore "Orleans.Template/Orleans.Example.Grains.csproj"
-COPY . .
-WORKDIR "/src/Orleans.Template"
+#COPY . .
+#WORKDIR "/src/Orleans.Template"
 RUN dotnet build "Orleans.Example.Grains.csproj" -c Release -o /app
 
 FROM build AS publish
