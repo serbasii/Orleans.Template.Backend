@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
 WORKDIR /src
-COPY ["Orleans.Template/Orleans.Example.Grains.csproj", "Orleans.Template/"]
+#COPY ["Orleans.Template/Orleans.Example.Grains.csproj", "Orleans.Template/"]
 RUN dotnet restore "Orleans.Template/Orleans.Example.Grains.csproj"
 #COPY . .
 #WORKDIR "/src/Orleans.Template"
