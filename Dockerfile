@@ -20,7 +20,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
 WORKDIR /src
 COPY ["/Orleans.Example.Silo/Orleans.Example.Silo.csproj", "Orleans.Template/"]
-RUN dotnet restore "/Orleans.Example.Silo.csproj"
+RUN dotnet restore "Orleans.Example.Silo.csproj"
 COPY . .
 WORKDIR "/src/Orleans.Template"
 RUN dotnet build "Orleans.Example.Silo.csproj" -c Release -o /app
