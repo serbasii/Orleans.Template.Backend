@@ -31,7 +31,7 @@ RUN dotnet publish "/Orleans.Example.Silo/Orleans.Example.Silo.csproj" -c Releas
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "Orleans.Template.dll"]
+ENTRYPOINT ["dotnet", "Orleans.Template.Backend.dll"]
 
 #COPY bin/Release/PublishOutput  /app/
 #
