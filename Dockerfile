@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
 WORKDIR /src
 COPY . /src
 #COPY ["/Orleans.Example.Grains/Orleans.Example.Grains.csproj", "Orleans.Template/"]
-RUN nuget.exe restore Orleans.Example.Grains.csproj -SolutionDirectory ../ -Verbosity normal
+#RUN nuget.exe restore Orleans.Example.Grains.csproj -SolutionDirectory ../ -Verbosity normal
 RUN dotnet restore "/Orleans.Example.Grains/Orleans.Example.Grains.csproj"
 COPY . .
 WORKDIR "/src/Orleans.Template"
