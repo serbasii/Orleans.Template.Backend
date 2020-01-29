@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFun", "CloudFun\CloudFun.csproj", "{BA14BD7B-C116-4ECF-9478-1B9046F41EA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA14BD7B-C116-4ECF-9478-1B9046F41EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA14BD7B-C116-4ECF-9478-1B9046F41EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA14BD7B-C116-4ECF-9478-1B9046F41EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA14BD7B-C116-4ECF-9478-1B9046F41EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA96E4CF-34FE-400F-BD5C-91A2B606E65F}
+	EndGlobalSection
+EndGlobal

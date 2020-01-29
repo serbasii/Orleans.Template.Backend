@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "LoggerTestingApplication": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Queue_Exchange_Name": "amq.direct",
+        "Queue_Virtual_Host": "Value",
+        "Queue_Port": "5672",
+        "Queue_Hostname": "rabbitmq",
+        "Queue_Username": "guest",
+        "Queue_Name": "TestQueue",
+        "Logging_Level": "1",
+        "Queue_Password": "guest",
+        "Application_Name": "Tester",
+        "Queue_Routing_Key": "Test"
+      }
+    }
+  }
+}

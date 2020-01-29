@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "CentralizedLogging": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Queue Password": "guest",
+        "Queue Virtual Host": "/",
+        "Queue Port": "5672",
+        "Queue Name": "Test5",
+        "Queue Hostname": "localhost",
+        "Queue Username": "guest",
+        "Queue Echange Name": "amq.direct",
+        "Queue Routing Key": "test"
+      }
+    }
+  }
+}
