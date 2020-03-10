@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedLogger", "DistributedLogger\DistributedLogger.csproj", "{7F4386C0-2A17-4D6B-8C8D-AD8B7C829D08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerAPITest", "DockerAPITest\DockerAPITest.csproj", "{4EA5329B-481F-4C67-88C4-1CD415E6DA9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7F4386C0-2A17-4D6B-8C8D-AD8B7C829D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F4386C0-2A17-4D6B-8C8D-AD8B7C829D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F4386C0-2A17-4D6B-8C8D-AD8B7C829D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F4386C0-2A17-4D6B-8C8D-AD8B7C829D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA5329B-481F-4C67-88C4-1CD415E6DA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA5329B-481F-4C67-88C4-1CD415E6DA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA5329B-481F-4C67-88C4-1CD415E6DA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA5329B-481F-4C67-88C4-1CD415E6DA9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D8827058-F8D9-4342-8745-28FE17CF7E4C}
+		SolutionGuid = {26D2A526-CF98-44DA-8841-2CCE217C3721}
 	EndGlobalSection
 EndGlobal

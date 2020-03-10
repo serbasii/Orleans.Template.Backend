@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DistributedLogger
+namespace Client
 {
     class Program
     {
