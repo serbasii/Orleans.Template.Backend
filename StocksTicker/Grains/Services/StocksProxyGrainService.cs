@@ -22,7 +22,7 @@ namespace Grains.Services
                                         IGrainIdentity id, 
                                         Silo silo, 
                                         ILoggerFactory loggerFactory,
-                                        IGrainFactory grainFactory )
+                                        IGrainFactory grainFactory ) :  base(id, silo, loggerFactory)
         {
             GrainFactory = grainFactory;
         }
